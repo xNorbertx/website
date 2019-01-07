@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="sticky">
+            <div id="header">
+                <h1 class="header-text">Han</h1>
+            </div>
+            <div id="nav-menu">
+                <a id="nav-media" class="active-menu">Media</a>
+                <a id="nav-about">About</a>
+                <a id="nav-paintings">Paintings</a>
+                <a id="nav-objects">Objects</a>
+                <a id="nav-contact">Contact</a>
+            </div>
+        </div>
+        <div id="media" class="container">
+            <p>media</p>
+        </div>
+        <div id="about" class="container">
+            <p>About</p>
+        </div>    
+        <div id="paintings" class="container">
+            <p>Paintings</p>
+        </div>
+        <div id="objects" class="container">
+            <p>Objects</p>
+            <div class="slideshow-wrapper">
+                <div class="slideshow-item">
+                  <img src="object.jpg" class="slideshow-image">
+                </div>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+              </div>
+        </div>
+        <div id="contact" class="container">
+            <p>Contact</p>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
