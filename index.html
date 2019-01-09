@@ -10,7 +10,7 @@
     <body>
         <div id="sticky">
             <div id="header">
-                <h1 class="header-text">Han</h1>
+                <h1 class="header-text">Name</h1>
             </div>
             <div id="nav-menu">
                 <a id="nav-media" class="active-menu">Media</a>
@@ -20,6 +20,12 @@
                 <a id="nav-contact">Contact</a>
             </div>
         </div>
+        <aside class="asd-info">
+            <h2>About</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat ultricies neque et molestie. Nulla in dui ullamcorper, cursus lectus in, volutpat ex. Aenean quam felis, tempus non mollis sed, gravida ut augue. Integer mauris elit, hendrerit at augue non, tempus consectetur risus. Aliquam eu cursus enim. Cras nec interdum turpis. Aenean magna libero, blandit quis quam vel, maximus dictum dolor. Quisque porta, ex vitae imperdiet aliquet, nisi urna lacinia arcu, ac pellentesque eros nisl sit amet nulla. Proin ac ornare diam. Donec in dolor molestie, ornare risus eu, interdum lacus. Phasellus lobortis diam eu maximus congue. Nam sagittis id lacus ac ullamcorper. Sed euismod nec orci id tempus. Integer et eros venenatis, vehicula eros in, consequat dolor.
+            </p>
+        </aside>
         <div id="media" class="container">
             <p>media</p>
         </div>
@@ -31,13 +37,29 @@
         </div>
         <div id="objects" class="container">
             <p>Objects</p>
-            <div class="slideshow-wrapper">
-                <div class="slideshow-item">
-                  <img src="object.jpg" class="slideshow-image">
-                </div>
+            <div id="carousel-wrapper">
                 <a class="prev">&#10094;</a>
-                <a class="next">&#10095;</a>
-              </div>
+                <div class="slideshow-wrapper">
+                    <ul>
+                        <li class="slideshow-item animateleft">
+                            <img src="object.jpg" class="slideshow-image">
+                        </li>
+                        <li class="slideshow-item">
+                            <img src="object2.jpg" class="slideshow-image">
+                        </li>
+                        <li class="slideshow-item">
+                            <img src="object3.jpg" class="slideshow-image">
+                        </li>
+                        <li class="slideshow-item">
+                            <img src="object4.jpg" class="slideshow-image">
+                        </li>
+                        <li class="slideshow-item">
+                            <img src="object5.jpg" class="slideshow-image" >
+                        </li>
+                    </ul>
+                </div>
+                <a class="next">&#10095;</a>    
+            </div>
         </div>
         <div id="contact" class="container">
             <p>Contact</p>
